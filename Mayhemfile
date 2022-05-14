@@ -1,0 +1,7 @@
+project: rnshah9/mayhem-berry
+target: berry
+tests: null
+
+cmds:
+  - cmd: /repo/berry @@
+    filepath: /test.be
