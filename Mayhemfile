@@ -2,5 +2,4 @@ project: berry
 target: berry
 
 cmds:
-  - cmd: /repo/berry /test.be
-    filepath: /test.be
+  - cmd: /repo/berry @@
