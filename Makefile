@@ -67,7 +67,7 @@ $(OBJS): %.o: %.c
 	$(Q) $(CC) -MM $(CFLAGS) $(INCFLAGS) -MT"$*.d" -MT"$(<:.c=.o)" $< > $*.d
 	$(Q) $(CC) $(CFLAGS) $(INCFLAGS) -c $< -o $@
 
-# sinclude $(DEPS)
+sinclude $(DEPS)
 
 $(OBJS): $(CONST_TAB)
 
