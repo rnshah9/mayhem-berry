@@ -1,0 +1,5 @@
+project: berry
+target: berry
+
+cmds:
+  - cmd: /repo/berry @@
